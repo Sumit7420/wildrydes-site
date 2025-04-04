@@ -1,30 +1,141 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="">
+  <meta name="description" content="Join Wild Rydes - where visionary engineering meets revolutionary design.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Apply - Wild Rydes</title>
-
+  
+  <!-- Modern, professional fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Updated CSS -->
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/main.css">
-
+  
+  <!-- For futuristic icons and smooth animations -->
+  <link rel="stylesheet" href="css/animate.css">
+  
   <script src="js/vendor/modernizr.js"></script>
+  
+  <style>
+    /* Inline styling to complement your refined theme - extend in your main.css */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #1a1a1a;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    .site-header, .site-footer {
+      background-color: #000;
+      color: #e0e0e0;
+      padding: 1.5rem 2rem;
+      border-bottom: 2px solid #444;
+    }
+    .site-logo {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .title {
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin: 1rem 0;
+      color: #ccc;
+    }
+    .site-nav ul, .footer-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .site-nav ul li, .footer-nav ul li {
+      display: inline-block;
+      margin-right: 1.5rem;
+    }
+    .site-nav ul li a, .footer-nav ul li a {
+      color: #e0e0e0;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .site-nav ul li a:hover, .footer-nav ul li a:hover {
+      color: #00bcd4;
+    }
+    .content {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #262626;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      animation: fadeInUp 1s ease-out;
+    }
+    .content h2 {
+      color: #00bcd4;
+      margin-top: 2rem;
+      font-weight: 500;
+    }
+    .content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+    .content ul {
+      margin: 1rem 0;
+      padding-left: 1.5rem;
+    }
+    .content ul li {
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+    .content ul li::before {
+      content: "✓";
+      color: #00bcd4;
+      position: absolute;
+      left: -1.5rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      background: #00bcd4;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn-primary:hover {
+      background: #00a0b2;
+    }
+    .site-footer {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    /* Keyframe for fadeInUp animation */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+      }
+      to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  </style>
 </head>
 <body class="page-apply">
 
   <header class="site-header">
     <div class="site-logo">Wild Rydes</div>
-
-    <div class="row column medium-8 large-6 xlarge-5 xxlarge-4">
-      <h1 class="title">Apply Today!</h1>
-    </div>
-
+    
     <nav class="site-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="unicorns.html">Meet the Unicorns</a></li>
-        <li><a href="investors.html">Investors & Board of Directors</a></li>
+        <li><a href="unicorns.html">Our Innovations</a></li>
+        <li><a href="investors.html">Investors & Leadership</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="apply.html">Apply</a></li>
       </ul>
@@ -33,49 +144,46 @@
   </header>
 
   <section class="content">
-    <div class="row column medium-10 large-7 xlarge-5">
-      <p>Wild Rydes is on the hunt for the most mythical creature of all: talented software engineers! We’re seeking a technical dream team who will help us build a future where every person has a unicorn to ryde.</p>
-      <p>From a technical standpoint, Wild Rydes believes in a future where there are no servers to provision, manage, or scale! Interested candidates can begin following the Serverless Way by exploring the following options:</p>
+    <div class="row column">
+      <h1 class="title">Join the Future of Innovation</h1>
+      <p>At Wild Rydes, we are more than a company—we are a revolution in technology and design. We are looking for trailblazing software engineers who are ready to redefine the future of serverless architecture and drive transformative change.</p>
+      <p>Our platform liberates development from the constraints of legacy systems, empowering you to deploy at the speed of thought. Embrace an environment where each line of code contributes to a vision of endless possibilities.</p>
+      
       <ul>
-        <li>Enter our <a href="http://awschatbot.devpost.com" target="_blank">hackathon</a></li>
-        <li>Train in the art of serverless</li>
+        <li>Engage in our elite <a href="http://awschatbot.devpost.com" target="_blank" style="color:#00bcd4; text-decoration:underline;">Innovation Challenge</a></li>
+        <li>Master advanced techniques in serverless computing</li>
+        <li>Collaborate with a team dedicated to breakthrough technologies</li>
       </ul>
 
-      <h2>The Serverless Manifesto:</h2>
-      <p>Functions are the unit of deployment and scaling.</p>
-      <p>No machines, VMs, or containers visible in the programming model.</p>
-      <p>Permanent storage lives elsewhere.</p>
-      <p>Scales per request. Users cannot over- or under-provision capacity.</p>
-      <p>Never pay for idle (no cold servers/containers or their costs).</p>
-      <p>Implicitly fault tolerant because functions can run anywhere.</p>
-      <p>BYOC - Bring your own code.</p>
-      <p>Metrics and logging are a universal right.</p>
+      <h2>The Serverless Paradigm:</h2>
+      <p><strong>Modular & Scalable:</strong> Each function is designed for independent deployment and elastic scaling.</p>
+      <p><strong>Invisible Infrastructure:</strong> Experience a clean, intuitive development model devoid of traditional server clutter.</p>
+      <p><strong>Decoupled Solutions:</strong> Permanent storage operates separately to optimize performance.</p>
+      <p><strong>On-Demand Efficiency:</strong> Pay solely for what you use, eradicating idle overheads.</p>
+      <p><strong>Global Resilience:</strong> Distributed functions ensure unfaltering service across all regions.</p>
+      <p><strong>Innovation Unleashed:</strong> Your code, your ideas—driving an ecosystem of endless potential.</p>
+      <p><strong>Transparent Insights:</strong> Gain instant access to comprehensive metrics and logging.</p>
+      
+      <a href="register.html" class="btn-primary">Apply Now</a>
     </div>
   </section>
 
   <footer class="site-footer">
-    <div class="row column">
-      <nav class="footer-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="unicorns.html">Meet the Unicorns</a></li>
-          <li><a href="investors.html">Investors & Board of Directors</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="apply.html">Apply</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="row column">
-      <div class="footer-legal">
-        &copy;WildRydes Inc<br>
-        All Rights Reserved
-      </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="unicorns.html">Our Innovations</a></li>
+        <li><a href="investors.html">Investors & Leadership</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="apply.html">Apply</a></li>
+      </ul>
+    </nav>
+    <div class="footer-legal">
+      &copy; Wild Rydes Inc. All Rights Reserved.
     </div>
   </footer>
 
   <script src="js/vendor.js"></script>
-
   <script src="js/main.js"></script>
 </body>
 </html>
